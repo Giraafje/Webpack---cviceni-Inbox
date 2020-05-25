@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inbox</title>
+  </head>
+  <body>
+    <h1>Inbox</h1>
+    <template id="message-item-template">
+      <div class="message-item">
+        <div class="sender">Sender: {{sender}}</div>
+        <div class="subject">Subject: {{subject}}</div>
+        <div class="date">Date: {{date}}</div>
+        <div class="time">Time: {{time}} Kč</div>
+      </div>
+    </template>
+    <div class="message-list"></div>
+    <script src="bundle.js"></script>
+  </body>
+</html>

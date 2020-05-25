@@ -1,0 +1,17 @@
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+.message-item {
+  max-width: 300px;
+  margin-left: 2rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px green;
+}
